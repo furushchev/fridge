@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.68.0 r58537</authoring_tool>
+    </contributor>
+    <created>2015-12-08T02:42:35</created>
+    <modified>2015-12-08T02:42:35</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Lamp-light" name="Lamp">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>0.000999987</adapt_thresh>
+          <area_shape>1</area_shape>
+          <area_size>0.1</area_size>
+          <area_sizey>0.1</area_sizey>
+          <area_sizez>1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>2880</bufsize>
+          <buftype>2</buftype>
+          <clipend>30.002</clipend>
+          <clipsta>1.000799</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">29.99998</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>8192</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <shadspotsize>45</shadspotsize>
+          <sky_colorspace>0</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>75</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>0</type>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="Untitled_002" name="Untitled_002">
+      <init_from>Untitled.002.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="ROOT_geometry_0_material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOT_geometry_1_material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOT_geometry_2_material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOT_geometry_3_material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOT_geometry_4_material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOT_geometry_5_material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOT_geometry_6_material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="Material_002-effect">
+      <profile_COMMON>
+        <newparam sid="Untitled_002-surface">
+          <surface type="2D">
+            <init_from>Untitled_002</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Untitled_002-sampler">
+          <sampler2D>
+            <source>Untitled_002-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Untitled_002-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0_materi-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.7968752 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1_materi-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0_materi-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.7968752 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1_materi-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0_materi-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0_materi-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0_materi-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7968752 0.7968752 0.75 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="ROOT_geometry_0_material-material" name="ROOT_geometry_0_material">
+      <instance_effect url="#ROOT_geometry_0_material-effect"/>
+    </material>
+    <material id="ROOT_geometry_1_material-material" name="ROOT_geometry_1_material">
+      <instance_effect url="#ROOT_geometry_1_material-effect"/>
+    </material>
+    <material id="ROOT_geometry_2_material-material" name="ROOT_geometry_2_material">
+      <instance_effect url="#ROOT_geometry_2_material-effect"/>
+    </material>
+    <material id="ROOT_geometry_3_material-material" name="ROOT_geometry_3_material">
+      <instance_effect url="#ROOT_geometry_3_material-effect"/>
+    </material>
+    <material id="ROOT_geometry_4_material-material" name="ROOT_geometry_4_material">
+      <instance_effect url="#ROOT_geometry_4_material-effect"/>
+    </material>
+    <material id="ROOT_geometry_5_material-material" name="ROOT_geometry_5_material">
+      <instance_effect url="#ROOT_geometry_5_material-effect"/>
+    </material>
+    <material id="ROOT_geometry_6_material-material" name="ROOT_geometry_6_material">
+      <instance_effect url="#ROOT_geometry_6_material-effect"/>
+    </material>
+    <material id="Material_002-material" name="Material_002">
+      <instance_effect url="#Material_002-effect"/>
+    </material>
+    <material id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0_materi-material" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0_materi">
+      <instance_effect url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0_materi-effect"/>
+    </material>
+    <material id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1_materi-material" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1_materi">
+      <instance_effect url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1_materi-effect"/>
+    </material>
+    <material id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0_materi-material" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0_materi">
+      <instance_effect url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0_materi-effect"/>
+    </material>
+    <material id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1_materi-material" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1_materi">
+      <instance_effect url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1_materi-effect"/>
+    </material>
+    <material id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0_materi-material" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0_materi">
+      <instance_effect url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0_materi-effect"/>
+    </material>
+    <material id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0_materi-material" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0_materi">
+      <instance_effect url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0_materi-effect"/>
+    </material>
+    <material id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0_materi-material" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0_materi">
+      <instance_effect url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0_materi-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="ROOT_geometry_0-mesh" name="ROOT_geometry.0">
+      <mesh>
+        <source id="ROOT_geometry_0-mesh-positions">
+          <float_array id="ROOT_geometry_0-mesh-positions-array" count="108">-275 -270 1450 275 -270 1450 275 270 1450 275 270 1450 -275 270 1450 -275 -270 1450 275 -270 1420 -275 -270 1420 -275 270 1420 -275 270 1420 275 270 1420 275 -270 1420 -275 270 1420 -275 270 1450 275 270 1450 275 270 1450 275 270 1420 -275 270 1420 275 270 1420 275 270 1450 275 -270 1450 275 -270 1450 275 -270 1420 275 270 1420 275 -270 1420 275 -270 1450 -275 -270 1450 -275 -270 1450 -275 -270 1420 275 -270 1420 -275 -270 1420 -275 -270 1450 -275 270 1450 -275 270 1450 -275 270 1420 -275 -270 1420</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_0-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOT_geometry_0-mesh-normals">
+          <float_array id="ROOT_geometry_0-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_0-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOT_geometry_0-mesh-vertices">
+          <input semantic="POSITION" source="#ROOT_geometry_0-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOT_geometry_0_material-material" count="12">
+          <input semantic="VERTEX" source="#ROOT_geometry_0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOT_geometry_0-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOT_geometry_1-mesh" name="ROOT_geometry.1">
+      <mesh>
+        <source id="ROOT_geometry_1-mesh-positions">
+          <float_array id="ROOT_geometry_1-mesh-positions-array" count="108">-275 -270 50 275 -270 50 275 270 50 275 270 50 -275 270 50 -275 -270 50 275 -270 0 -275 -270 0 -275 270 0 -275 270 0 275 270 0 275 -270 0 -275 270 0 -275 270 50 275 270 50 275 270 50 275 270 0 -275 270 0 275 270 0 275 270 50 275 -270 50 275 -270 50 275 -270 0 275 270 0 275 -270 0 275 -270 50 -275 -270 50 -275 -270 50 -275 -270 0 275 -270 0 -275 -270 0 -275 -270 50 -275 270 50 -275 270 50 -275 270 0 -275 -270 0</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_1-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOT_geometry_1-mesh-normals">
+          <float_array id="ROOT_geometry_1-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_1-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOT_geometry_1-mesh-vertices">
+          <input semantic="POSITION" source="#ROOT_geometry_1-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOT_geometry_1_material-material" count="12">
+          <input semantic="VERTEX" source="#ROOT_geometry_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOT_geometry_1-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOT_geometry_2-mesh" name="ROOT_geometry.2">
+      <mesh>
+        <source id="ROOT_geometry_2-mesh-positions">
+          <float_array id="ROOT_geometry_2-mesh-positions-array" count="108">-275 -240 1420 -245 -240 1420 -245 240 1420 -245 240 1420 -275 240 1420 -275 -240 1420 -245 -240 50 -275 -240 50 -275 240 50 -275 240 50 -245 240 50 -245 -240 50 -275 240 50 -275 240 1420 -245 240 1420 -245 240 1420 -245 240 50 -275 240 50 -245 240 50 -245 240 1420 -245 -240 1420 -245 -240 1420 -245 -240 50 -245 240 50 -245 -240 50 -245 -240 1420 -275 -240 1420 -275 -240 1420 -275 -240 50 -245 -240 50 -275 -240 50 -275 -240 1420 -275 240 1420 -275 240 1420 -275 240 50 -275 -240 50</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_2-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOT_geometry_2-mesh-normals">
+          <float_array id="ROOT_geometry_2-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_2-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOT_geometry_2-mesh-vertices">
+          <input semantic="POSITION" source="#ROOT_geometry_2-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOT_geometry_2_material-material" count="12">
+          <input semantic="VERTEX" source="#ROOT_geometry_2-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOT_geometry_2-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOT_geometry_3-mesh" name="ROOT_geometry.3">
+      <mesh>
+        <source id="ROOT_geometry_3-mesh-positions">
+          <float_array id="ROOT_geometry_3-mesh-positions-array" count="108">-275 240 1420 275 240 1420 275 270 1420 275 270 1420 -275 270 1420 -275 240 1420 275 240 50 -275 240 50 -275 270 50 -275 270 50 275 270 50 275 240 50 -275 270 50 -275 270 1420 275 270 1420 275 270 1420 275 270 50 -275 270 50 275 270 50 275 270 1420 275 240 1420 275 240 1420 275 240 50 275 270 50 275 240 50 275 240 1420 -275 240 1420 -275 240 1420 -275 240 50 275 240 50 -275 240 50 -275 240 1420 -275 270 1420 -275 270 1420 -275 270 50 -275 240 50</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_3-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOT_geometry_3-mesh-normals">
+          <float_array id="ROOT_geometry_3-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_3-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOT_geometry_3-mesh-vertices">
+          <input semantic="POSITION" source="#ROOT_geometry_3-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOT_geometry_3_material-material" count="12">
+          <input semantic="VERTEX" source="#ROOT_geometry_3-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOT_geometry_3-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOT_geometry_4-mesh" name="ROOT_geometry.4">
+      <mesh>
+        <source id="ROOT_geometry_4-mesh-positions">
+          <float_array id="ROOT_geometry_4-mesh-positions-array" count="108">-275 -270 1420 275 -270 1420 275 -240 1420 275 -240 1420 -275 -240 1420 -275 -270 1420 275 -270 50 -275 -270 50 -275 -240 50 -275 -240 50 275 -240 50 275 -270 50 -275 -240 50 -275 -240 1420 275 -240 1420 275 -240 1420 275 -240 50 -275 -240 50 275 -240 50 275 -240 1420 275 -270 1420 275 -270 1420 275 -270 50 275 -240 50 275 -270 50 275 -270 1420 -275 -270 1420 -275 -270 1420 -275 -270 50 275 -270 50 -275 -270 50 -275 -270 1420 -275 -240 1420 -275 -240 1420 -275 -240 50 -275 -270 50</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_4-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOT_geometry_4-mesh-normals">
+          <float_array id="ROOT_geometry_4-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_4-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOT_geometry_4-mesh-vertices">
+          <input semantic="POSITION" source="#ROOT_geometry_4-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOT_geometry_4_material-material" count="12">
+          <input semantic="VERTEX" source="#ROOT_geometry_4-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOT_geometry_4-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOT_geometry_5-mesh" name="ROOT_geometry.5">
+      <mesh>
+        <source id="ROOT_geometry_5-mesh-positions">
+          <float_array id="ROOT_geometry_5-mesh-positions-array" count="108">-245 -240 535 275 -240 535 275 240 535 275 240 535 -245 240 535 -245 -240 535 275 -240 505 -245 -240 505 -245 240 505 -245 240 505 275 240 505 275 -240 505 -245 240 505 -245 240 535 275 240 535 275 240 535 275 240 505 -245 240 505 275 240 505 275 240 535 275 -240 535 275 -240 535 275 -240 505 275 240 505 275 -240 505 275 -240 535 -245 -240 535 -245 -240 535 -245 -240 505 275 -240 505 -245 -240 505 -245 -240 535 -245 240 535 -245 240 535 -245 240 505 -245 -240 505</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_5-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOT_geometry_5-mesh-normals">
+          <float_array id="ROOT_geometry_5-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_5-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOT_geometry_5-mesh-vertices">
+          <input semantic="POSITION" source="#ROOT_geometry_5-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOT_geometry_5_material-material" count="12">
+          <input semantic="VERTEX" source="#ROOT_geometry_5-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOT_geometry_5-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOT_geometry_6-mesh" name="ROOT_geometry.6">
+      <mesh>
+        <source id="ROOT_geometry_6-mesh-positions">
+          <float_array id="ROOT_geometry_6-mesh-positions-array" count="108">-245 -240 845 275 -240 845 275 240 845 275 240 845 -245 240 845 -245 -240 845 275 -240 815 -245 -240 815 -245 240 815 -245 240 815 275 240 815 275 -240 815 -245 240 815 -245 240 845 275 240 845 275 240 845 275 240 815 -245 240 815 275 240 815 275 240 845 275 -240 845 275 -240 845 275 -240 815 275 240 815 275 -240 815 275 -240 845 -245 -240 845 -245 -240 845 -245 -240 815 275 -240 815 -245 -240 815 -245 -240 845 -245 240 845 -245 240 845 -245 240 815 -245 -240 815</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_6-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOT_geometry_6-mesh-normals">
+          <float_array id="ROOT_geometry_6-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOT_geometry_6-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOT_geometry_6-mesh-vertices">
+          <input semantic="POSITION" source="#ROOT_geometry_6-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOT_geometry_6_material-material" count="12">
+          <input semantic="VERTEX" source="#ROOT_geometry_6-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOT_geometry_6-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry.0">
+      <mesh>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-positions">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-positions-array" count="660">275 -270 850 275 -270 1450 275 270 1450 275 270 1450 275 270 850 275 -270 850 325 -270 1450 275 -270 1450 275 -270 850 275 -270 850 325 -270 850 325 270 850 325 270 1450 325 -230 885 325 -270 850 325 -210 885 325 -230 885 325 -210 972.301 325 -210 885 325 -230 1275 325 -210 1275 325 -210 1275 325 -270 850 325 -230 885 325 -230 972.301 325 -270 850 325 -230 972.301 325 -230 1275 325 -230 972.301 325 -230 1275 325 -230 972.301 325 -210 972.301 325 -210 1275 325 -210 1187.7 325 -210 1187.7 325 -230 1187.7 325 -210 972.301 325 -230 1187.7 325 -230 1187.7 325 -230 1275 325 -210 972.301 275 -270 1450 275 270 1450 275 -270 1450 275 270 1450 275 270 850 275 270 1450 325 -270 850 275 -270 850 275 270 850 275 270 850 325 -270 850 329.3 -210 931 329.3 -230 931 325.58 -230 885 325.58 -230 885 325.58 -210 885 329.3 -210 931 353.5 -230 1016.8 329.3 -230 931 329.3 -210 931 329.3 -210 931 353.5 -210 1016.8 353.5 -230 1016.8 357.2 -230 1080 353.5 -230 1016.8 353.5 -210 1016.8 353.5 -210 1016.8 357.2 -210 1080 357.2 -230 1080 353.5 -230 1143.2 357.2 -230 1080 357.2 -210 1080 357.2 -210 1080 353.5 -210 1143.2 353.5 -230 1143.2 329.3 -230 1229 353.5 -230 1143.2 353.5 -210 1143.2 353.5 -210 1143.2 329.3 -210 1229 329.3 -230 1229 325.58 -230 1275 329.3 -230 1229 329.3 -210 1229 329.3 -210 1229 325.58 -210 1275 325.58 -230 1275 325 -230 1275 325.58 -230 1275 325.58 -210 1275 325.58 -210 1275 325 -210 1275 325 -230 1275 329.3 -230 1184 325 -230 1187.7 325 -210 1187.7 325 -210 1187.7 329.3 -210 1184 329.3 -230 1184 342.3 -230 1139.5 329.3 -230 1184 329.3 -210 1184 329.3 -210 1184 342.3 -210 1139.5 342.3 -230 1139.5 346 -230 1080 342.3 -230 1139.5 342.3 -210 1139.5 342.3 -210 1139.5 346 -210 1080 346 -230 1080 342.3 -230 1020.5 346 -230 1080 346 -210 1080 346 -210 1080 342.3 -210 1020.5 342.3 -230 1020.5 329.3 -230 976 342.3 -230 1020.5 342.3 -210 1020.5 342.3 -210 1020.5 329.3 -210 976 329.3 -230 976 325 -230 972.301 329.3 -230 976 329.3 -210 976 329.3 -210 976 325 -210 972.301 325 -230 972.301 329.3 -230 976 325 -230 972.301 325 -230 885 329.3 -230 976 325 -230 885 325.58 -230 885 329.3 -230 976 325.58 -230 885 329.3 -230 931 342.3 -230 1020.5 329.3 -230 976 329.3 -230 931 342.3 -230 1020.5 329.3 -230 931 353.5 -230 1016.8 346 -230 1080 342.3 -230 1020.5 353.5 -230 1016.8 325 -230 1275 325 -230 1187.7 329.3 -230 1184 325.58 -230 1275 325 -230 1275 329.3 -230 1184 329.3 -230 1229 325.58 -230 1275 329.3 -230 1184 353.5 -230 1143.2 329.3 -230 1229 329.3 -230 1184 353.5 -230 1143.2 329.3 -230 1184 342.3 -230 1139.5 353.5 -230 1016.8 357.2 -230 1080 353.5 -230 1143.2 346 -230 1080 353.5 -230 1016.8 353.5 -230 1143.2 353.5 -230 1143.2 342.3 -230 1139.5 346 -230 1080 325.58 -230 885 325 -230 885 325 -210 885 325 -210 885 325.58 -210 885 325.58 -230 885 329.3 -210 931 325.58 -210 885 325 -210 885 357.2 -210 1080 353.5 -210 1016.8 329.3 -210 931 329.3 -210 931 325 -210 885 325 -210 972.301 329.3 -210 1229 353.5 -210 1143.2 357.2 -210 1080 329.3 -210 931 325 -210 972.301 329.3 -210 976 325 -210 1275 325.58 -210 1275 329.3 -210 1229 325 -210 1187.7 325 -210 1275 329.3 -210 1229 329.3 -210 1184 325 -210 1187.7 329.3 -210 1229 342.3 -210 1139.5 329.3 -210 1184 329.3 -210 1229 342.3 -210 1139.5 329.3 -210 1229 357.2 -210 1080 346 -210 1080 342.3 -210 1139.5 357.2 -210 1080 342.3 -210 1020.5 346 -210 1080 357.2 -210 1080 329.3 -210 931 329.3 -210 976 342.3 -210 1020.5 342.3 -210 1020.5 357.2 -210 1080 329.3 -210 931</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-positions-array" count="220" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-normals">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-normals-array" count="246">-1 0 0 -1 0 0 0 -1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 0 0 -1 0 0 1 0.996746 0 -0.08060705 0.996746 0 -0.08060705 0.9624497 0 -0.27146 0.9624497 0 -0.27146 0.9982907 0 -0.05844438 0.9982907 0 -0.05844438 0.9982907 0 0.05844432 0.9982907 0 0.05844432 0.9624497 0 0.2714602 0.9624497 0 0.2714602 0.996746 0 0.08060705 0.996746 0 0.08060705 0 0 1 0 0 1 -0.6522477 0 -0.7580059 -0.6522477 0 -0.7580059 -0.9598792 0 -0.2804141 -0.9598792 0 -0.2804141 -0.9980722 0 -0.06206464 -0.9980722 0 -0.06206464 -0.9980722 0 0.06206464 -0.9980722 0 0.06206464 -0.9598792 0 0.2804141 -0.9598792 0 0.2804141 -0.6521365 0 0.7581017 -0.6521365 0 0.7581017 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 0 -1 0 1 0 0 1 0 0 1 0 0 0 0 1 0 1 0 0 0 -1 1 0 0 0 0 0 0 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-normals-array" count="82" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-map-0">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-map-0-array" count="492">0.4236491 3.85614e-4 0.7112461 0.3199379 0.423649 0.5787753 0.9996144 0.5787753 0.7120173 0.2592231 0.9996144 3.85614e-4 0.3553049 0.9579157 0.3194788 0.9579157 0.3194788 0.5280023 3.85614e-4 0.5280023 0.03608798 0.5309775 3.85808e-4 0.9594061 0.2992624 0.5280023 0.3187075 0.5607476 0.2992624 0.6202017 0.5219078 0.5795465 0.855969 0.6994252 0.423649 0.6994252 0.423649 0.8355331 0.8557489 0.8355331 0.433077 0.8374461 0.07002764 0.7453666 0.05572843 0.5289471 0.07002764 0.5280023 3.85614e-4 0.527231 0.01583027 0.4666144 0.3553049 0.527231 0.0892499 0.6829518 0.08512592 0.7453672 0.08512592 0.5280023 0.204317 0.6676226 0.1692588 0.6651685 0.3157027 0.6651685 3.85637e-4 0.4300387 0.3870726 3.85614e-4 0.3870732 0.4300384 0.423649 0.73587 0.4269521 0.7001965 0.8122267 0.7358701 3.85614e-4 0.4658432 3.85637e-4 0.4300387 0.3870732 0.4300384 0.1923692 0.6257172 0.1780387 0.6257173 0.1780387 0.5926496 0.249334 0.5763452 0.2624829 0.5820435 0.249334 0.6123845 0.2984911 0.5934662 0.2845082 0.5311393 0.2984911 0.5280023 0.09002113 0.5280023 0.104004 0.5903294 0.09002119 0.5934663 0.1396941 0.5755739 0.1260293 0.5323192 0.1396941 0.5280023 0.248818 0.5280023 0.2624828 0.5712569 0.248818 0.5755739 0.1541301 0.5755738 0.1404653 0.5323191 0.1541301 0.5280023 0.234382 0.5280023 0.2480468 0.5712569 0.234382 0.5755738 0.1187582 0.5934663 0.1047753 0.5311393 0.1187582 0.5280023 0.269754 0.5280023 0.283737 0.5903289 0.269754 0.5934659 0.1396941 0.6123844 0.1265452 0.5820434 0.1396941 0.5763452 0.234898 0.5763451 0.2480468 0.6066861 0.234898 0.6123844 0.2197914 0.6123844 0.2198035 0.6119689 0.2341268 0.6123844 0.1923692 0.6264885 0.1923692 0.6269041 0.1780398 0.6269041 0.2331509 0.6170661 0.2342601 0.6131556 0.2480468 0.6170661 0.2480468 0.6178373 0.2469377 0.6217477 0.2331511 0.6178373 0.1549013 0.5738287 0.1680595 0.6043295 0.1549013 0.610006 0.1541301 0.6125224 0.1409718 0.5820216 0.1541301 0.5763451 0.2056671 0.5280023 0.2192533 0.5684994 0.205667 0.5730574 0.1684876 0.5730574 0.1549013 0.5325602 0.1684876 0.5280023 0.2200245 0.5280023 0.2336108 0.5684995 0.2200245 0.5730574 0.1828451 0.5730574 0.1692588 0.5325602 0.1828451 0.5280023 0.2204526 0.5738287 0.2336108 0.6043295 0.2204526 0.610006 0.2188252 0.6100059 0.205667 0.5795052 0.2188252 0.5738286 0.2331511 0.6265831 0.2331511 0.622519 0.2474815 0.622519 0.3187075 0.6209729 0.3187075 0.6250371 0.3043771 0.6250371 0.1680595 0.6760532 0.165107 0.6732603 0.1680595 0.6107772 0.3925498 0.5060235 0.3925498 0.4666144 0.3932374 0.4666315 0.175404 0.6390872 0.175404 0.5738286 0.176721 0.6068712 0.2828167 0.6590389 0.2781819 0.6261457 0.2828167 0.5942372 0.196573 0.5928042 0.196573 0.5280023 0.2048958 0.5913342 0.2048958 0.6391775 0.1972391 0.5971539 0.2048958 0.5935755 0.1612762 0.6760522 0.1583237 0.6135709 0.1612762 0.6107772 0.3932374 0.5461713 0.3925498 0.5462037 0.3925498 0.5067948 0.09475654 0.6264524 0.09343951 0.6594955 0.09343951 0.5942376 0.1923691 0.5280023 0.1923691 0.5918784 0.1836163 0.5608457 0.104004 0.5942376 0.104004 0.6282271 0.09574925 0.5960513 0.1549013 0.6107772 0.1575524 0.6560614 0.1549013 0.7013459 0.1692588 0.619113 0.1746327 0.5738286 0.1746327 0.6643972 0.2774107 0.6398393 0.269754 0.6362609 0.2774107 0.5942372 0.3043771 0.6262239 0.3043771 0.6258084 0.3187072 0.6258084 0.2341222 0.6107822 0.2341222 0.6111977 0.2197914 0.6111977 0.3932374 0.575006 0.3927487 0.5470207 0.3932374 0.546975 0.2689828 0.6366199 0.2632541 0.5916213 0.2689828 0.5280023 0.1265452 0.6461158 0.1296263 0.6131557 0.1296263 0.675709 0.1252581 0.6366194 0.1195294 0.573001 0.1252581 0.5280023 0.205667 0.6107771 0.2087481 0.6403703 0.205667 0.6430207 0.3932374 0.6038077 0.3927487 0.6037729 0.3932374 0.5757772 0.1396941 0.6131557 0.1396725 0.675708 0.1366028 0.6427469 0.2157442 0.6107771 0.2188252 0.6134284 0.2157442 0.6430207 0.1133311 0.5942376 0.1179659 0.6271308 0.1133311 0.6590395 0.1957876 0.571873 0.1931404 0.6366196 0.1931404 0.5280023 0.1125599 0.5961869 0.1047753 0.6381872 0.1047753 0.5942376 0.2845082 0.5942374 0.2922928 0.6362374 0.2845082 0.6381869 0.2930641 0.5942374 0.2976989 0.6261461 0.2930641 0.6590391 0.09266829 0.6589846 0.09002113 0.7028553 0.09002113 0.5942376 0.4523099 0.8347619 0.423649 0.8096836 0.8105713 0.8096836 0.3560761 0.4666144 0.3917785 0.4695896 0.3560764 0.898018 0.08435469 0.6605595 0.07079887 0.5326501 0.08435469 0.5280023 0.3942168 0.8965286 0.3942168 0.4666144 0.4228778 0.5542458 0.05495721 0.7441357 0.03685921 0.871482 0.03685921 0.5280023 0.8105713 0.7730862 0.8105713 0.8089123 0.423649 0.8089123 0.4228777 0.4300384 0.3870732 0.4300384 0.3870726 3.85614e-4 0.8122264 0.7366414 0.8089233 0.7723149 0.423649 0.7366414 0.3870726 3.85614e-4 3.85637e-4 0.4300387 0.04090905 0.2361056 0.4353768 0.8437556 0.423649 0.8355331 0.433077 0.8374461 3.85637e-4 0.4300387 0.04195111 0.3006921 0.04180771 0.3009473 0.04090905 0.2361056 3.85637e-4 0.4300387 0.04180771 0.3009473</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-map-0-array" count="246" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-vertices">
+          <input semantic="POSITION" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-positions"/>
+        </vertices>
+        <lines count="2">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-vertices" offset="0"/>
+          <p>35 11 35 34</p>
+        </lines>
+        <polylist material="Material_002-material" count="82">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 1 3 4 1 4 5 1 5 6 2 6 7 2 7 8 2 8 11 3 9 45 3 10 46 3 11 22 4 12 23 4 13 24 4 14 36 5 15 11 5 16 37 5 17 95 6 18 11 6 19 33 6 20 29 7 21 30 7 22 31 7 23 17 8 24 18 8 25 11 8 26 38 9 27 39 9 28 40 9 29 15 10 30 16 10 31 11 10 32 6 11 33 11 11 34 12 11 35 47 12 36 48 12 37 49 12 38 41 13 39 6 13 40 12 13 41 52 14 42 53 14 43 54 14 44 55 15 45 56 15 46 57 15 47 58 16 48 59 16 49 60 16 50 61 17 51 62 17 52 63 17 53 64 18 54 65 18 55 66 18 56 67 19 57 68 19 58 69 19 59 70 20 60 71 20 61 72 20 62 73 21 63 74 21 64 75 21 65 76 22 66 77 22 67 78 22 68 79 23 69 80 23 70 81 23 71 82 24 72 83 24 73 84 24 74 85 25 75 86 25 76 87 25 77 88 26 78 89 26 79 90 26 80 91 27 81 92 27 82 93 27 83 94 28 84 95 28 85 96 28 86 97 29 87 98 29 88 99 29 89 100 30 90 101 30 91 102 30 92 103 31 93 104 31 94 105 31 95 106 32 96 107 32 97 108 32 98 109 33 99 110 33 100 111 33 101 112 34 102 113 34 103 114 34 104 115 35 105 116 35 106 117 35 107 118 36 108 119 36 109 120 36 110 121 37 111 122 37 112 123 37 113 124 38 114 125 38 115 126 38 116 127 39 117 128 39 118 129 39 119 130 40 120 131 40 121 132 40 122 133 41 123 134 41 124 135 41 125 136 42 126 137 42 127 138 42 128 139 43 129 140 43 130 141 43 131 142 44 132 143 44 133 144 44 134 145 45 135 146 45 136 147 45 137 148 46 138 149 46 139 150 46 140 151 47 141 152 47 142 153 47 143 154 48 144 155 48 145 156 48 146 157 49 147 158 49 148 159 49 149 160 50 150 161 50 151 162 50 152 163 51 153 164 51 154 165 51 155 166 52 156 167 52 157 168 52 158 169 53 159 170 53 160 171 53 161 172 54 162 173 54 163 174 54 164 175 55 165 176 55 166 177 55 167 178 56 168 179 56 169 180 56 170 181 57 171 182 57 172 183 57 173 184 58 174 185 58 175 186 58 176 187 59 177 188 59 178 189 59 179 190 60 180 191 60 181 192 60 182 193 61 183 194 61 184 195 61 185 196 62 186 197 62 187 198 62 188 199 63 189 200 63 190 201 63 191 202 64 192 203 64 193 204 64 194 205 65 195 206 65 196 207 65 197 208 66 198 209 66 199 210 66 200 211 67 201 212 67 202 213 67 203 214 68 204 215 68 205 216 68 206 217 69 207 218 69 208 219 69 209 13 70 210 14 70 211 11 70 212 9 71 213 10 71 214 6 71 215 6 72 216 19 72 217 20 72 218 6 73 219 25 73 220 26 73 221 27 74 222 6 74 223 28 74 224 12 75 225 42 75 226 43 75 227 44 76 228 12 76 229 11 76 230 50 77 231 11 77 232 51 77 233 11 78 234 6 78 235 33 78 236 96 79 237 95 79 238 33 79 239 6 80 240 21 80 241 32 80 242 33 81 243 6 81 244 32 81 245</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry.0">
+      <mesh>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-positions">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-positions-array" count="252">-175 -220 800 -175 220 800 -175 220 520 -175 220 520 -175 -220 520 -175 -220 800 -175 -220 800 -175 -220 520 275 -220 520 275 -220 520 275 -220 800 -175 -220 800 275 220 520 275 220 800 275 210 800 275 -210 800 275 -220 800 275 -220 520 275 -210 530 275 -210 800 275 -220 520 275 210 530 275 -210 530 275 -220 520 275 210 530 275 -220 520 275 220 520 275 210 530 275 220 520 275 210 800 275 210 800 275 220 800 -175 220 800 -165 210 800 275 210 800 -175 220 800 -165 -210 800 -165 210 800 -175 220 800 -165 -210 800 -175 220 800 -175 -220 800 275 -220 800 275 -210 800 -165 -210 800 -165 -210 800 -175 -220 800 275 -220 800 -175 -220 520 -175 220 520 275 220 520 275 220 520 275 -220 520 -175 -220 520 275 220 800 275 220 520 -175 220 520 -175 220 520 -175 220 800 275 220 800 -165 -210 530 -165 210 530 -165 210 800 -165 210 800 -165 -210 800 -165 -210 530 275 -210 800 275 -210 530 -165 -210 530 -165 -210 530 -165 -210 800 275 -210 800 -165 210 800 -165 210 530 275 210 530 275 210 530 275 210 800 -165 210 800 275 -210 530 275 210 530 -165 210 530 -165 210 530 -165 -210 530 275 -210 530</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-positions-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-normals">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-normals-array" count="84">-1 0 0 -1 0 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-normals-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-vertices">
+          <input semantic="POSITION" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0_materi-material" count="28">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11 36 12 37 12 38 12 39 13 40 13 41 13 42 14 43 14 44 14 45 15 46 15 47 15 48 16 49 16 50 16 51 17 52 17 53 17 54 18 55 18 56 18 57 19 58 19 59 19 60 20 61 20 62 20 63 21 64 21 65 21 66 22 67 22 68 22 69 23 70 23 71 23 72 24 73 24 74 24 75 25 76 25 77 25 78 26 79 26 80 26 81 27 82 27 83 27</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry.1">
+      <mesh>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-positions">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-positions-array" count="720">275 -270 510 275 -270 840 275 270 840 275 270 840 275 270 510 275 -270 510 325 -270 840 275 -270 840 275 -270 510 275 -270 510 325 -270 510 325 -270 840 325 112 780 325 195 780 325 270 840 325 112 780 325 270 840 325 -270 840 325 -270 840 325 -195 780 325 -112 780 325 112 780 325 -270 840 325 -112 780 325 270 840 325 195 780 325 195 760 325 270 510 325 270 840 325 195 760 325 -270 510 325 270 510 325 195 760 325 -270 510 325 195 760 325 112 760 325 -195 780 325 -270 840 325 -270 510 325 -195 760 325 -195 780 325 -270 510 325 -112 760 325 -195 760 325 -270 510 325 -112 760 325 -270 510 325 112 760 325 112 780 325 -112 780 325 -112 760 325 -112 760 325 112 760 325 112 780 275 -270 840 325 -270 840 325 270 840 325 270 840 275 270 840 275 -270 840 275 270 840 325 270 840 325 270 510 325 270 510 275 270 510 275 270 840 325 -270 510 275 -270 510 275 270 510 275 270 510 325 270 510 325 -270 510 334.3 -149 760 334.3 -149 780 330.58 -195 780 330.58 -195 780 330.58 -195 760 334.3 -149 760 358.5 -63.2 780 334.3 -149 780 334.3 -149 760 334.3 -149 760 358.5 -63.2 760 358.5 -63.2 780 362.2 0 780 358.5 -63.2 780 358.5 -63.2 760 358.5 -63.2 760 362.2 0 760 362.2 0 780 358.5 63.2 780 362.2 0 780 362.2 0 760 362.2 0 760 358.5 63.2 760 358.5 63.2 780 334.3 149 780 358.5 63.2 780 358.5 63.2 760 358.5 63.2 760 334.3 149 760 334.3 149 780 330.58 195 780 334.3 149 780 334.3 149 760 334.3 149 760 330.58 195 760 330.58 195 780 325 195 780 330.58 195 780 330.58 195 760 330.58 195 760 325 195 760 325 195 780 334.3 104 780 325 112 780 325 112 760 325 112 760 334.3 104 760 334.3 104 780 347.3 59.5 780 334.3 104 780 334.3 104 760 334.3 104 760 347.3 59.5 760 347.3 59.5 780 351 0 780 347.3 59.5 780 347.3 59.5 760 347.3 59.5 760 351 0 760 351 0 780 347.3 -59.5 780 351 0 780 351 0 760 351 0 760 347.3 -59.5 760 347.3 -59.5 780 334.3 -104 780 347.3 -59.5 780 347.3 -59.5 760 347.3 -59.5 760 334.3 -104 760 334.3 -104 780 325 -112 780 334.3 -104 780 334.3 -104 760 334.3 -104 760 325 -112 760 325 -112 780 334.3 -104 780 325 -112 780 325 -195 780 334.3 -104 780 325 -195 780 330.58 -195 780 334.3 -104 780 330.58 -195 780 334.3 -149 780 347.3 -59.5 780 334.3 -104 780 334.3 -149 780 347.3 -59.5 780 334.3 -149 780 358.5 -63.2 780 351 0 780 347.3 -59.5 780 358.5 -63.2 780 325 195 780 325 112 780 334.3 104 780 330.58 195 780 325 195 780 334.3 104 780 334.3 149 780 330.58 195 780 334.3 104 780 358.5 63.2 780 334.3 149 780 334.3 104 780 358.5 63.2 780 334.3 104 780 347.3 59.5 780 358.5 -63.2 780 362.2 0 780 358.5 63.2 780 351 0 780 358.5 -63.2 780 358.5 63.2 780 358.5 63.2 780 347.3 59.5 780 351 0 780 330.58 -195 780 325 -195 780 325 -195 760 325 -195 760 330.58 -195 760 330.58 -195 780 334.3 -149 760 330.58 -195 760 325 -195 760 362.2 0 760 358.5 -63.2 760 334.3 -149 760 362.2 0 760 334.3 -149 760 325 -195 760 334.3 149 760 358.5 63.2 760 362.2 0 760 325 -195 760 325 -112 760 334.3 -104 760 325 195 760 330.58 195 760 334.3 149 760 325 112 760 325 195 760 334.3 149 760 334.3 104 760 325 112 760 334.3 149 760 347.3 59.5 760 334.3 104 760 334.3 149 760 347.3 59.5 760 334.3 149 760 362.2 0 760 351 0 760 347.3 59.5 760 362.2 0 760 347.3 -59.5 760 351 0 760 362.2 0 760 325 -195 760 334.3 -104 760 347.3 -59.5 760 347.3 -59.5 760 362.2 0 760 325 -195 760</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-positions-array" count="240" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-normals">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-normals-array" count="240">-1 0 0 -1 0 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0.996746 -0.08060705 0 0.996746 -0.08060705 0 0.9624497 -0.2714599 0 0.9624497 -0.2714599 0 0.9982907 -0.05844438 0 0.9982907 -0.05844438 0 0.9982907 0.05844438 0 0.9982907 0.05844438 0 0.9624497 0.2714599 0 0.9624497 0.2714599 0 0.996746 0.08060705 0 0.996746 0.08060705 0 0 1 0 0 1 0 -0.6521323 -0.7581052 0 -0.6521323 -0.7581052 0 -0.9598792 -0.2804141 0 -0.9598792 -0.2804141 0 -0.9980722 -0.06206464 0 -0.9980722 -0.06206464 0 -0.9980722 0.06206464 0 -0.9980722 0.06206464 0 -0.9598792 0.2804141 0 -0.9598792 0.2804141 0 -0.6521323 0.7581052 0 -0.6521323 0.7581052 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-normals-array" count="80" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-vertices">
+          <input semantic="POSITION" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1_materi-material" count="80">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11 36 12 37 12 38 12 39 13 40 13 41 13 42 14 43 14 44 14 45 15 46 15 47 15 48 16 49 16 50 16 51 17 52 17 53 17 54 18 55 18 56 18 57 19 58 19 59 19 60 20 61 20 62 20 63 21 64 21 65 21 66 22 67 22 68 22 69 23 70 23 71 23 72 24 73 24 74 24 75 25 76 25 77 25 78 26 79 26 80 26 81 27 82 27 83 27 84 28 85 28 86 28 87 29 88 29 89 29 90 30 91 30 92 30 93 31 94 31 95 31 96 32 97 32 98 32 99 33 100 33 101 33 102 34 103 34 104 34 105 35 106 35 107 35 108 36 109 36 110 36 111 37 112 37 113 37 114 38 115 38 116 38 117 39 118 39 119 39 120 40 121 40 122 40 123 41 124 41 125 41 126 42 127 42 128 42 129 43 130 43 131 43 132 44 133 44 134 44 135 45 136 45 137 45 138 46 139 46 140 46 141 47 142 47 143 47 144 48 145 48 146 48 147 49 148 49 149 49 150 50 151 50 152 50 153 51 154 51 155 51 156 52 157 52 158 52 159 53 160 53 161 53 162 54 163 54 164 54 165 55 166 55 167 55 168 56 169 56 170 56 171 57 172 57 173 57 174 58 175 58 176 58 177 59 178 59 179 59 180 60 181 60 182 60 183 61 184 61 185 61 186 62 187 62 188 62 189 63 190 63 191 63 192 64 193 64 194 64 195 65 196 65 197 65 198 66 199 66 200 66 201 67 202 67 203 67 204 68 205 68 206 68 207 69 208 69 209 69 210 70 211 70 212 70 213 71 214 71 215 71 216 72 217 72 218 72 219 73 220 73 221 73 222 74 223 74 224 74 225 75 226 75 227 75 228 76 229 76 230 76 231 77 232 77 233 77 234 78 235 78 236 78 237 79 238 79 239 79</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry.0">
+      <mesh>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-positions">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-positions-array" count="252">-155 -200 430 -155 200 430 -155 200 50 -155 200 50 -155 -200 50 -155 -200 430 -155 -200 430 -155 -200 50 275 -200 50 275 -200 50 275 -200 430 -155 -200 430 275 200 50 275 200 430 275 190 430 275 -190 430 275 -200 430 275 -200 50 275 -190 60 275 -190 430 275 -200 50 275 190 60 275 -190 60 275 -200 50 275 190 60 275 -200 50 275 200 50 275 190 60 275 200 50 275 190 430 275 190 430 275 200 430 -155 200 430 -145 190 430 275 190 430 -155 200 430 -145 -190 430 -145 190 430 -155 200 430 -145 -190 430 -155 200 430 -155 -200 430 275 -200 430 275 -190 430 -145 -190 430 -145 -190 430 -155 -200 430 275 -200 430 -155 -200 50 -155 200 50 275 200 50 275 200 50 275 -200 50 -155 -200 50 275 200 430 275 200 50 -155 200 50 -155 200 50 -155 200 430 275 200 430 -145 -190 60 -145 190 60 -145 190 430 -145 190 430 -145 -190 430 -145 -190 60 275 -190 430 275 -190 60 -145 -190 60 -145 -190 60 -145 -190 430 275 -190 430 -145 190 430 -145 190 60 275 190 60 275 190 60 275 190 430 -145 190 430 275 -190 60 275 190 60 -145 190 60 -145 190 60 -145 -190 60 275 -190 60</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-positions-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-normals">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-normals-array" count="84">-1 0 0 -1 0 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-normals-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-vertices">
+          <input semantic="POSITION" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0_materi-material" count="28">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11 36 12 37 12 38 12 39 13 40 13 41 13 42 14 43 14 44 14 45 15 46 15 47 15 48 16 49 16 50 16 51 17 52 17 53 17 54 18 55 18 56 18 57 19 58 19 59 19 60 20 61 20 62 20 63 21 64 21 65 21 66 22 67 22 68 22 69 23 70 23 71 23 72 24 73 24 74 24 75 25 76 25 77 25 78 26 79 26 80 26 81 27 82 27 83 27</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry.1">
+      <mesh>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-positions">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-positions-array" count="720">275 -270 50 275 -270 500 275 270 500 275 270 500 275 270 50 275 -270 50 325 -270 500 275 -270 500 275 -270 50 275 -270 50 325 -270 50 325 -270 500 325 112 440 325 195 440 325 270 500 325 112 440 325 270 500 325 -270 500 325 -270 500 325 -195 440 325 -112 440 325 112 440 325 -270 500 325 -112 440 325 270 500 325 195 440 325 195 420 325 270 50 325 270 500 325 195 420 325 -270 50 325 270 50 325 195 420 325 -270 50 325 195 420 325 112 420 325 -195 440 325 -270 500 325 -270 50 325 -195 420 325 -195 440 325 -270 50 325 -112 420 325 -195 420 325 -270 50 325 -112 420 325 -270 50 325 112 420 325 112 440 325 -112 440 325 -112 420 325 -112 420 325 112 420 325 112 440 275 -270 500 325 -270 500 325 270 500 325 270 500 275 270 500 275 -270 500 275 270 500 325 270 500 325 270 50 325 270 50 275 270 50 275 270 500 325 -270 50 275 -270 50 275 270 50 275 270 50 325 270 50 325 -270 50 334.3 -149 420 334.3 -149 440 330.58 -195 440 330.58 -195 440 330.58 -195 420 334.3 -149 420 358.5 -63.2 440 334.3 -149 440 334.3 -149 420 334.3 -149 420 358.5 -63.2 420 358.5 -63.2 440 362.2 0 440 358.5 -63.2 440 358.5 -63.2 420 358.5 -63.2 420 362.2 0 420 362.2 0 440 358.5 63.2 440 362.2 0 440 362.2 0 420 362.2 0 420 358.5 63.2 420 358.5 63.2 440 334.3 149 440 358.5 63.2 440 358.5 63.2 420 358.5 63.2 420 334.3 149 420 334.3 149 440 330.58 195 440 334.3 149 440 334.3 149 420 334.3 149 420 330.58 195 420 330.58 195 440 325 195 440 330.58 195 440 330.58 195 420 330.58 195 420 325 195 420 325 195 440 334.3 104 440 325 112 440 325 112 420 325 112 420 334.3 104 420 334.3 104 440 347.3 59.5 440 334.3 104 440 334.3 104 420 334.3 104 420 347.3 59.5 420 347.3 59.5 440 351 0 440 347.3 59.5 440 347.3 59.5 420 347.3 59.5 420 351 0 420 351 0 440 347.3 -59.5 440 351 0 440 351 0 420 351 0 420 347.3 -59.5 420 347.3 -59.5 440 334.3 -104 440 347.3 -59.5 440 347.3 -59.5 420 347.3 -59.5 420 334.3 -104 420 334.3 -104 440 325 -112 440 334.3 -104 440 334.3 -104 420 334.3 -104 420 325 -112 420 325 -112 440 334.3 -104 440 325 -112 440 325 -195 440 334.3 -104 440 325 -195 440 330.58 -195 440 334.3 -104 440 330.58 -195 440 334.3 -149 440 347.3 -59.5 440 334.3 -104 440 334.3 -149 440 347.3 -59.5 440 334.3 -149 440 358.5 -63.2 440 351 0 440 347.3 -59.5 440 358.5 -63.2 440 325 195 440 325 112 440 334.3 104 440 330.58 195 440 325 195 440 334.3 104 440 334.3 149 440 330.58 195 440 334.3 104 440 358.5 63.2 440 334.3 149 440 334.3 104 440 358.5 63.2 440 334.3 104 440 347.3 59.5 440 358.5 -63.2 440 362.2 0 440 358.5 63.2 440 351 0 440 358.5 -63.2 440 358.5 63.2 440 358.5 63.2 440 347.3 59.5 440 351 0 440 330.58 -195 440 325 -195 440 325 -195 420 325 -195 420 330.58 -195 420 330.58 -195 440 334.3 -149 420 330.58 -195 420 325 -195 420 362.2 0 420 358.5 -63.2 420 334.3 -149 420 362.2 0 420 334.3 -149 420 325 -195 420 334.3 149 420 358.5 63.2 420 362.2 0 420 325 -195 420 325 -112 420 334.3 -104 420 325 195 420 330.58 195 420 334.3 149 420 325 112 420 325 195 420 334.3 149 420 334.3 104 420 325 112 420 334.3 149 420 347.3 59.5 420 334.3 104 420 334.3 149 420 347.3 59.5 420 334.3 149 420 362.2 0 420 351 0 420 347.3 59.5 420 362.2 0 420 347.3 -59.5 420 351 0 420 362.2 0 420 325 -195 420 334.3 -104 420 347.3 -59.5 420 347.3 -59.5 420 362.2 0 420 325 -195 420</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-positions-array" count="240" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-normals">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-normals-array" count="240">-1 0 0 -1 0 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0.996746 -0.08060705 0 0.996746 -0.08060705 0 0.9624497 -0.2714599 0 0.9624497 -0.2714599 0 0.9982907 -0.05844438 0 0.9982907 -0.05844438 0 0.9982907 0.05844438 0 0.9982907 0.05844438 0 0.9624497 0.2714599 0 0.9624497 0.2714599 0 0.996746 0.08060705 0 0.996746 0.08060705 0 0 1 0 0 1 0 -0.6521323 -0.7581052 0 -0.6521323 -0.7581052 0 -0.9598792 -0.2804141 0 -0.9598792 -0.2804141 0 -0.9980722 -0.06206464 0 -0.9980722 -0.06206464 0 -0.9980722 0.06206464 0 -0.9980722 0.06206464 0 -0.9598792 0.2804141 0 -0.9598792 0.2804141 0 -0.6521323 0.7581052 0 -0.6521323 0.7581052 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-normals-array" count="80" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-vertices">
+          <input semantic="POSITION" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1_materi-material" count="80">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11 36 12 37 12 38 12 39 13 40 13 41 13 42 14 43 14 44 14 45 15 46 15 47 15 48 16 49 16 50 16 51 17 52 17 53 17 54 18 55 18 56 18 57 19 58 19 59 19 60 20 61 20 62 20 63 21 64 21 65 21 66 22 67 22 68 22 69 23 70 23 71 23 72 24 73 24 74 24 75 25 76 25 77 25 78 26 79 26 80 26 81 27 82 27 83 27 84 28 85 28 86 28 87 29 88 29 89 29 90 30 91 30 92 30 93 31 94 31 95 31 96 32 97 32 98 32 99 33 100 33 101 33 102 34 103 34 104 34 105 35 106 35 107 35 108 36 109 36 110 36 111 37 112 37 113 37 114 38 115 38 116 38 117 39 118 39 119 39 120 40 121 40 122 40 123 41 124 41 125 41 126 42 127 42 128 42 129 43 130 43 131 43 132 44 133 44 134 44 135 45 136 45 137 45 138 46 139 46 140 46 141 47 142 47 143 47 144 48 145 48 146 48 147 49 148 49 149 49 150 50 151 50 152 50 153 51 154 51 155 51 156 52 157 52 158 52 159 53 160 53 161 53 162 54 163 54 164 54 165 55 166 55 167 55 168 56 169 56 170 56 171 57 172 57 173 57 174 58 175 58 176 58 177 59 178 59 179 59 180 60 181 60 182 60 183 61 184 61 185 61 186 62 187 62 188 62 189 63 190 63 191 63 192 64 193 64 194 64 195 65 196 65 197 65 198 66 199 66 200 66 201 67 202 67 203 67 204 68 205 68 206 68 207 69 208 69 209 69 210 70 211 70 212 70 213 71 214 71 215 71 216 72 217 72 218 72 219 73 220 73 221 73 222 74 223 74 224 74 225 75 226 75 227 75 228 76 229 76 230 76 231 77 232 77 233 77 234 78 235 78 236 78 237 79 238 79 239 79</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry.0">
+      <mesh>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-positions">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-positions-array" count="108">-245 -240 1280 55 -240 1280 55 240 1280 55 240 1280 -245 240 1280 -245 -240 1280 55 -240 1270 -245 -240 1270 -245 240 1270 -245 240 1270 55 240 1270 55 -240 1270 -245 240 1270 -245 240 1280 55 240 1280 55 240 1280 55 240 1270 -245 240 1270 55 240 1270 55 240 1280 55 -240 1280 55 -240 1280 55 -240 1270 55 240 1270 55 -240 1270 55 -240 1280 -245 -240 1280 -245 -240 1280 -245 -240 1270 55 -240 1270 -245 -240 1270 -245 -240 1280 -245 240 1280 -245 240 1280 -245 240 1270 -245 -240 1270</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-normals">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-vertices">
+          <input semantic="POSITION" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0_materi-material" count="12">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry.0">
+      <mesh>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-positions">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-positions-array" count="108">-245 -240 1090 55 -240 1090 55 240 1090 55 240 1090 -245 240 1090 -245 -240 1090 55 -240 1080 -245 -240 1080 -245 240 1080 -245 240 1080 55 240 1080 55 -240 1080 -245 240 1080 -245 240 1090 55 240 1090 55 240 1090 55 240 1080 -245 240 1080 55 240 1080 55 240 1090 55 -240 1090 55 -240 1090 55 -240 1080 55 240 1080 55 -240 1080 55 -240 1090 -245 -240 1090 -245 -240 1090 -245 -240 1080 55 -240 1080 -245 -240 1080 -245 -240 1090 -245 240 1090 -245 240 1090 -245 240 1080 -245 -240 1080</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-normals">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-vertices">
+          <input semantic="POSITION" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0_materi-material" count="12">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry.0">
+      <mesh>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-positions">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-positions-array" count="108">-245 -240 940 55 -240 940 55 240 940 55 240 940 -245 240 940 -245 -240 940 55 -240 930 -245 -240 930 -245 240 930 -245 240 930 55 240 930 55 -240 930 -245 240 930 -245 240 940 55 240 940 55 240 940 55 240 930 -245 240 930 55 240 930 55 240 940 55 -240 940 55 -240 940 55 -240 930 55 240 930 55 -240 930 55 -240 940 -245 -240 940 -245 -240 940 -245 -240 930 55 -240 930 -245 -240 930 -245 -240 940 -245 240 940 -245 240 940 -245 240 930 -245 -240 930</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-normals">
+          <float_array id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-normals-array" count="36">0 0 1 0 0 1 0 0 -1 0 0 -1 0 1 0 0 1 0 1 0 0 1 0 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-vertices">
+          <input semantic="POSITION" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-positions"/>
+        </vertices>
+        <polylist material="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0_materi-material" count="12">
+          <input semantic="VERTEX" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 1 0 2 0 3 1 4 1 5 1 6 2 7 2 8 2 9 3 10 3 11 3 12 4 13 4 14 4 15 5 16 5 17 5 18 6 19 6 20 6 21 7 22 7 23 7 24 8 25 8 26 8 27 9 28 9 29 9 30 10 31 10 32 10 33 11 34 11 35 11</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Camera" name="Camera" type="NODE">
+        <matrix sid="transform">0.6858805 -0.3173701 0.6548619 7.481132 0.7276338 0.3124686 -0.6106656 -6.50764 -0.01081678 0.8953432 0.4452454 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Lamp" name="Lamp" type="NODE">
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663932 4.076245 0.9551712 -0.1998834 0.2183912 1.005454 -0.05518906 0.6045247 0.7946723 5.903862 0 0 0 1</matrix>
+        <instance_light url="#Lamp-light"/>
+      </node>
+      <node id="room73b2-hitachi-fiesta-refrigerator" name="room73b2-hitachi-fiesta-refrigerator" type="NODE">
+        <matrix sid="transform">0.001 0 0 0 0 0.001 0 0 0 0 0.001 0 0 0 0 1</matrix>
+        <node id="ROOT_node" name="ROOT_node" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOT_geometry_0-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOT_geometry_0_material-material" target="#ROOT_geometry_0_material-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOT_node_001" name="ROOT_node_001" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOT_geometry_1-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOT_geometry_1_material-material" target="#ROOT_geometry_1_material-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOT_node_002" name="ROOT_node_002" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOT_geometry_2-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOT_geometry_2_material-material" target="#ROOT_geometry_2_material-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOT_node_003" name="ROOT_node_003" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOT_geometry_3-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOT_geometry_3_material-material" target="#ROOT_geometry_3_material-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOT_node_004" name="ROOT_node_004" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOT_geometry_4-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOT_geometry_4_material-material" target="#ROOT_geometry_4_material-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOT_node_005" name="ROOT_node_005" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOT_geometry_5-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOT_geometry_5_material-material" target="#ROOT_geometry_5_material-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOT_node_006" name="ROOT_node_006" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOT_geometry_6-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOT_geometry_6_material-material" target="#ROOT_geometry_6_material-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_node" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_node" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET7_geometry_0-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="Material_002-material" target="#Material_002-material">
+                  <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_node" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_node" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0_materi-material" target="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_0_materi-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_node_001" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_node_001" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1_materi-material" target="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET6_geometry_1_materi-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_node" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_node" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0_materi-material" target="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_0_materi-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_node_001" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_node_001" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1_materi-material" target="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET5_geometry_1_materi-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_node" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_node" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0_materi-material" target="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET4_geometry_0_materi-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_node" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_node" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0_materi-material" target="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET3_geometry_0_materi-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_node" name="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_node" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0_materi-material" target="#ROOM73B2-HITACHI-FIESTA-REFRIGERATOR-BODYSET2_geometry_0_materi-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
